@@ -3,8 +3,8 @@
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
-
 ## DVC
-
+# DVC plots
+dvc_plots
 # DVC will add new files after this line
 /model
