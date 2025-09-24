@@ -1,13 +1,13 @@
 prepare:
   seed: 77
   split: 0.2
-  image_size: [32, 32]
-  grayscale: True
+  image_size: [64, 64]
+  grayscale: false
 
 train:
   seed: 77
-  lr: 0.0001
-  epochs: 30
-  conv_size: 64
-  dense_size: 128
+  lr: 0.0002
+  epochs: 15
+  conv_size: 96
+  dense_size: 192
   output_classes: 11
