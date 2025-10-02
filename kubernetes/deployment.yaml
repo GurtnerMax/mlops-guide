@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: celestial-bodies-classifier
-        image: <docker_image>
+        image: europe-west6-docker.pkg.dev/mlops-gurtner-project/mlops-gurtner-registry/celestial-bodies-classifier:latest
